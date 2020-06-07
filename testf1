@@ -1,0 +1,16 @@
+ls
+cd batch-55
+ls
+touch name
+git status
+git add name
+git commit -m "commit msg"
+git push
+git pull --rebase
+git push
+
+rm -rf file-name
+git status
+git add .
+git commit -m "label"
+git push
